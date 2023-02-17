@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="web.js" defer></script>
+    <title>The DNA Slicer</title>
+</head>
+<body>
+    <h1>The DNA Slicer</h1>
+    <div id="body">
+        <table>
+            <tr>
+                <th><input placeholder="Enter DNA String" id="dna"/></th>
+                <th><input placeholder="Enter Restriction Site  Ex. C AGU" id="site"/></th>
+                <th><button onclick="work()">Click</button></th>
+            </tr>
+            <tr>
+                <th style="text-indent: 2%;">Fragments:</th>
+                <th style="text-indent: 2%;">Sizes:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td id="fragments"></td>
+                <td id="sizes"></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
